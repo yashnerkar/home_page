@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius:6%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f6f6;
+  display: grid;
+  place-items:center;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: "Roboto", sans-serif;
+}
+
+.front{ 
+  width: 19rem;
+  height: auto;
+  background-color: #ffffff;
+  /* boder-radius: 2rem; */
+  /* box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2); */
+  padding: 1rem 1rem 0rem;
+  place-items:center;
+  background-image: url("../BROLY.jpg");
+  background-position:center;
+  background-size: 20rem, auto;
+  color: #0827F5;
+}
+
+.header{
+	display:flex;
+	flex-direction:column;
+	color: black;
+}
+
+.message-box{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:14rem;
+	background-color: white;
+	border-radius:10px;
+	background-size:20rem;
+	opacity:0.3;
+}
+
+.message-box p{
+	font-size: 1.2rem;
+	margin-left:4px;
+}
+
+.top-message-box{
+	margin-left: 4px;
+	width: auto;
+	display:flex;
+	justify-content: space-between;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: orange;
+}
+
+.top-message-box #time{
+	text-size: 5px;
+}
+
+.top-message-box #circle{
+	padding-top:4px;
+}
+
+.top-message-box .seperate{
+	/* font-size: 1rem; */
+	display: flex;
+}
+
+.lower-box{
+	display:flex;
+	background-color: #999A9C;
+	opacity: 0.6;
+	border-radius: 6px;
+	margin-bottom:6px;
+}
+.lower-box .lower-text{
+	margin-left: 1.2rem;
+}
+
+.lower-box .fas{
+	font-size: 2.2rem;
+	padding-left: 4px;
+	padding-top:4px;
+}
+
+.footer{
+	text-align:center;
+	width:14rem;
+	display:flex;
+	justify-content:space-between;
+	padding-left:4rem;
+	color: black;
+}
